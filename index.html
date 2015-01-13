@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="markdown-body">
+<h1 id="roundhouse-interactive-video-pitch">Interactive live streams proposal</h1>
+<h3 id="multiview-video-stream">multiview video stream</h3>
+<h5 id="concept">concept</h5>
+<p>The main live edited video content has x3 extra angles that the user can switch between at will.</p>
+<h5 id="technology">technology</h5>
+<p>The HD video stream is comprised of all 4 feeds into one 2x2 grid that works as a single stream.</p>
+<p>A web based video player will be able to facilitate the User Interaction.</p>
+<p>The Video player can be deployed onto the RH website as a inline script. This can take a URL of the comprised feed, and so the app can have a reusable lifecycle.</p>
+<h5 id="development">development</h5>
+<p>I propose the project be broken down into a <code>3 week</code> development phase.</p>
+<ul>
+<li>week 1</li>
+</ul>
+<blockquote>
+<p>Develop the web player to a working prototype.</p>
+</blockquote>
+<ul>
+<li>week 2</li>
+</ul>
+<blockquote>
+<p>Integrate the player as a drop-in app with a video feed. This will require working with the live media department - or whoever is in charge of streaming.</p>
+</blockquote>
+<ul>
+<li>week 3</li>
+</ul>
+<blockquote>
+<p>Platform Testing, Q&amp;A, performance and security enhancements.</p>
+</blockquote>
+<p>There would be some prerequisite days to discuss further the project, and its immediate limitations that on agreement would allow for a swift execution and delivery of the development.</p>
+<h3 id="quote">Quote</h3>
+<p>15 days @ <code>£300</code></p>
+<p><code>£4,500</code></p>
+<div class="hr"></div>
+<h3 id="hotspot-content-over-live-video-stream">hotspot content over live video stream</h3>
+<h5 id="concept-1">concept</h5>
+<p>Be able to stream a video feed, with HTML interactive content that can deployed in a live manner by a RH Operator at any point during the event. An example would be an infomation hotspot would appear over a performer or stage equiptment, that the user could click upon and find out infomation about them/it.</p>
+<p>Data could easily be pre-prepared, and set to go on command. This could lead to some exciting capabilities of the app, by becoming a similar tool to that of a Lighting Desk, which can have all kinds of live/programmed controls.</p>
+<h5 id="technology-1">technology</h5>
+<p>There would be x3 applications involved in making the system work.</p>
+<ul>
+<li>The User-side video player that can receive live data.</li>
+<li>A Server API instance (maybe on Amazon AWS) to provide live data instantly easily to over 10’000 connections</li>
+<li>An internal production tool running through a web browser that a RH personal would control the timings and execution of the live feeds. This passes the data to the API which then redirects updates to any connections, clientside.</li>
+</ul>
+<p>The smart thing about this method is that all processing of data would actually be done by the user’s device, ensuring a super high speed connection from the RH server. The App would supply data, and the user’s browser would render, allowing for all the normal implications of HD quality video.</p>
+<h5 id="development-1">development</h5>
+<p>Based upon delivery of the first project, it would follow the same path regarding <code>2 weeks</code> of <strong>Testing and Q&amp;A</strong>. Then as there are x3 applications that connect the master system together, a similar 3 phases would be required.</p>
+<ul>
+<li><code>2 weeks</code> video player - with hotspot technology</li>
+<li><code>1 week</code> Server API</li>
+<li><code>2 - 3 weeks</code> Operator Tool</li>
+</ul>
+<h4 id="estimated-total-8-weeks">Estimated Total: <code>8 weeks</code></h4>
+<h3 id="quote-1">Quote</h3>
+<p>8 weeks @ <code>£1500</code></p>
+<p><code>£12,000</code></p>
+<div class="hr"></div>
+</div>
